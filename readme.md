@@ -1,14 +1,13 @@
-# am_bot
-## Bot for [Too good to go](https://toogoodtogo.com) and [Foodsi](https://www.foodsi.pl/)
+# TooGoodToGo Telegram Bot
+## Bot for [Too good to go](https://toogoodtogo.com)
 ### Problem
-This project helps me to no longer miss my favorite offers at [Too good to go](https://toogoodtogo.com) and [Foodsi](https://www.foodsi.pl/).
+This project helps me to no longer miss my favorite offers at [Too good to go](https://toogoodtogo.com).
 
-"Too good to go" and "Foodsi" are platforms, where stores can offer bags of leftover food, that they otherwise need to throw away. The stores save a little bit of money, we get goods, that already have a few quirks, but are still consumable. Most importantly, this reduces food waste and thereby is good for the planet. In my neighborhood, e.g. a supermarket offers fruits & vegetables and a bakery offer their leftover bread at the end of the day.
-
-However, the Too good to go and Foodsi apps does often not notify me in time when my favorite goods are in stock. Since the offers are popular and limited, I regularly miss the time to click and collect the items. There are no settings for notifications in the apps.
+Too good to go app does often not notify me in time when my favorite goods are in stock. Since the offers are popular and limited, I regularly miss the time to click and collect the items. There are no settings for notifications in the app.
 
 ### Solution
-This application scrapes info from the Too good to go and Foodsi and sends me a notification via a Telegram bot as soon as some items in my area are available.
+This application scrapes info from the Too good to go and sends me a notification via a Telegram bot as soon as some items in my area are available.
+This script is a fork from kacpi2442/am_bot for my personnal usage. Foodsi doesn't exist in France and I want to customize Telegram's notifications. 
 Here is a screenshot:
 ![Telegram Screenshot](/result_screenshot.png "Telegram bot with notifications")
 
