@@ -8,8 +8,6 @@ Too good to go app does often not notify me in time when my favorite goods are i
 ### Solution
 This application scrapes info from the Too good to go and sends me a notification via a Telegram bot as soon as some items in my area are available.
 This script is a fork from kacpi2442/am_bot for my personnal usage. Foodsi doesn't exist in France and I want to customize Telegram's notifications. 
-Here is a screenshot:
-![Telegram Screenshot](/result_screenshot.png "Telegram bot with notifications")
 
 #### Tgtg API
 There is a library wrapped around the API of the tgtg-app. You can find the library and a short documentation [here.](https://pypi.org/project/tgtg/)
