@@ -95,7 +95,6 @@ except:
 
 # Init the favourites in stock list as a global variable
 tgtg_in_stock = list()
-foodsi_in_stock = list()
 
 
 def telegram_bot_sendtext(bot_message, only_to_admin=True):
@@ -253,7 +252,6 @@ def refresh():
     """
     try:
         toogoodtogo()
-        foodsi()
     except:
         print(traceback.format_exc())
         telegram_bot_sendtext("Error occured: \n```" + str(traceback.format_exc()) + "```")
@@ -263,7 +261,7 @@ schedule.every(1).minutes.do(refresh)
 schedule.every(24).hours.do(still_alive)
 
 # Description of the service, that gets send once
-telegram_bot_sendtext("The bot script has started successfully. The bot checks every 1 minute, if there is something new at TooGoodToGo or Foodsi. Every 24 hours, the bots sends a \"still alive\" message.")
+telegram_bot_sendtext("The bot script has started successfully. The bot checks every 1 minute, if there is something new at TooGoodToGo. Every 24 hours, the bots sends a \"still alive\" message.")
 refresh()
 while True:
     # run_pending
